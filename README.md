@@ -20,7 +20,7 @@ First project as a cedet at 42SP. Starting to build our on C library 😊<br>
 <h2>💻 About the project</h2>
 
 > _Your very first own library_
-<p><br>
+<p>
 This project is about understanding the way libc functions work,<br>
 implementing and learning to use them. You will create your own library</p>
 
