@@ -6,7 +6,7 @@
 /*   By: rabustam <rabustam@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/26 18:51:09 by rabustam          #+#    #+#             */
-/*   Updated: 2022/07/26 21:50:48 by rabustam         ###   ########.fr       */
+/*   Updated: 2022/10/25 19:08:44 by rabustam         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -78,5 +78,12 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *));
 char	*ft_strchr_gnl(char *s, int c);
 char	*ft_strjoin_gnl(char *s1, char *s2);
 char	*get_next_line(int fd);
+
+//LATER ADDED FUNCTIONS
+int		ft_clear_bit(int c, int position);
+int		ft_set_bit(int c, int position);
+int		ft_flip_bit(int c, int position);
+int		ft_is_bit_set(int c, int position);
+int		ft_is_odd(int c);
 
 #endif

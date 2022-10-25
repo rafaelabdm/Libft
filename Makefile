@@ -6,7 +6,7 @@
 #    By: rabustam <rabustam@student.42sp.org.br>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/05/30 15:35:09 by rabustam          #+#    #+#              #
-#    Updated: 2022/07/26 21:46:56 by rabustam         ###   ########.fr        #
+#    Updated: 2022/10/25 19:06:07 by rabustam         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -15,14 +15,14 @@ ft_memcpy.c ft_memmove.c ft_memset.c ft_strchr.c ft_strlcat.c ft_strlcpy.c ft_st
 ft_strncmp.c ft_strnstr.c ft_strrchr.c ft_tolower.c ft_toupper.c ft_memcmp.c ft_memchr.c\
 ft_strdup.c ft_calloc.c ft_strjoin.c ft_substr.c ft_strtrim.c ft_split.c ft_itoa.c\
 ft_strmapi.c ft_striteri.c ft_putchar_fd.c ft_putstr_fd.c ft_putendl_fd.c ft_putnbr_fd.c\
-get_next_line.c get_next_line_utils.c
+get_next_line.c get_next_line_utils.c ft_bit_manipulation.c
 
 OBJS	= ft_atoi.o ft_bzero.o ft_isalnum.o ft_isalpha.o ft_isascii.o ft_isdigit.o ft_isprint.o\
 ft_memcpy.o ft_memmove.o ft_memset.o ft_strchr.o ft_strlcat.o ft_strlcpy.o ft_strlen.o\
 ft_strncmp.o ft_strnstr.o ft_strrchr.o ft_tolower.o ft_toupper.o ft_memcmp.o ft_memchr.o\
 ft_strdup.o ft_calloc.o ft_strjoin.o ft_substr.o ft_strtrim.o ft_split.o ft_itoa.o\
 ft_strmapi.o ft_striteri.o ft_putchar_fd.o ft_putstr_fd.o ft_putendl_fd.o ft_putnbr_fd.o\
-get_next_line.o get_next_line_utils.o
+get_next_line.o get_next_line_utils.o ft_bit_manipulation.o
 
 BONUS_SRC	= ft_lstnew.c ft_lstadd_front.c ft_lstsize.c ft_lstlast.c ft_lstadd_back.c ft_lstdelone.c\
 ft_lstclear.c ft_lstiter.c ft_lstmap.c
