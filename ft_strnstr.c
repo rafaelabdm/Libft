@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strnstr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rabustam <rabustam@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: rabustam <rabustam@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/27 17:06:44 by rabustam          #+#    #+#             */
-/*   Updated: 2022/06/02 01:27:53 by rabustam         ###   ########.fr       */
+/*   Updated: 2023/04/20 15:22:39 by rabustam         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,5 +32,5 @@ char	*ft_strnstr(const char *big, const char *little, size_t len)
 		big++;
 		count++;
 	}
-	return (0);
+	return (NULL);
 }

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rabustam <rabustam@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: rabustam <rabustam@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/30 17:27:38 by rabustam          #+#    #+#             */
-/*   Updated: 2022/06/03 19:47:22 by rabustam         ###   ########.fr       */
+/*   Updated: 2023/04/20 15:13:35 by rabustam         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,5 +20,5 @@ void	*ft_memchr(const void *s, int c, size_t n)
 			return ((void *)s);
 		s++;
 	}
-	return (0);
+	return (NULL);
 }

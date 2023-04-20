@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strmapi.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rabustam <rabustam@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: rabustam <rabustam@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/01 19:20:59 by rabustam          #+#    #+#             */
-/*   Updated: 2022/06/03 23:41:29 by rabustam         ###   ########.fr       */
+/*   Updated: 2023/04/20 15:22:02 by rabustam         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	size_t	i;
 
 	if (!s || !*f)
-		return (0);
+		return (NULL);
 	str = ft_calloc(ft_strlen(s) + 1, sizeof(char));
 	i = 0;
 	while (s[i])

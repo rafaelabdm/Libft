@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rabustam <rabustam@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: rabustam <rabustam@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/27 17:38:26 by rabustam          #+#    #+#             */
-/*   Updated: 2022/06/09 19:24:18 by rabustam         ###   ########.fr       */
+/*   Updated: 2023/04/20 15:20:24 by rabustam         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,5 +24,5 @@ char	*ft_strchr(const char *s, int c)
 	}
 	if (*s == c)
 		return ((char *)(s));
-	return (0);
+	return (NULL);
 }

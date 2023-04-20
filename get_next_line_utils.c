@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line_utils.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rabustam <rabustam@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: rabustam <rabustam@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/13 18:19:54 by rabustam          #+#    #+#             */
-/*   Updated: 2022/07/26 21:39:43 by rabustam         ###   ########.fr       */
+/*   Updated: 2023/04/20 15:23:44 by rabustam         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ char	*ft_strchr_gnl(char *s, int c)
 	}
 	if (*s == c)
 		return ((char *)(s));
-	return (0);
+	return (NULL);
 }
 
 char	*ft_strjoin_gnl(char *s1, char *s2)

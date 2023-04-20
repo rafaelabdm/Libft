@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rabustam <rabustam@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: rabustam <rabustam@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/26 18:51:09 by rabustam          #+#    #+#             */
-/*   Updated: 2022/10/25 19:08:44 by rabustam         ###   ########.fr       */
+/*   Updated: 2023/04/20 15:24:46 by rabustam         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -79,7 +79,7 @@ char	*ft_strchr_gnl(char *s, int c);
 char	*ft_strjoin_gnl(char *s1, char *s2);
 char	*get_next_line(int fd);
 
-//LATER ADDED FUNCTIONS
+//BIT MANIPULATION
 int		ft_clear_bit(int c, int position);
 int		ft_set_bit(int c, int position);
 int		ft_flip_bit(int c, int position);
